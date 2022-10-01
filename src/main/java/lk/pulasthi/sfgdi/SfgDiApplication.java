@@ -1,9 +1,6 @@
 package lk.pulasthi.sfgdi;
 
-import lk.pulasthi.sfgdi.controllers.ConstructorInjectedController;
-import lk.pulasthi.sfgdi.controllers.Controller;
-import lk.pulasthi.sfgdi.controllers.PropertyInjectedController;
-import lk.pulasthi.sfgdi.controllers.SetterInjectedController;
+import lk.pulasthi.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -30,6 +27,10 @@ public class SfgDiApplication {
 		System.out.println("-------- Constructor" );
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) context.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
+
+		I18nController i18nController = (I18nController) context.getBean("i18nController");
+		System.out.println(i18nController.sayHello());
+
 	}
 
 }
