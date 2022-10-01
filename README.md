@@ -5,6 +5,11 @@ This repository is for an example application built in my [Spring Framework 5 - 
 As you work through the course, please feel free to fork this repository to your out GitHub repo. Most links contain links 
 to source code changes. If you encounter a problem you can compare your code to the lesson code. [See this link for help with compares](https://github.com/springframeworkguru/spring5webapp/wiki#getting-an-error-but-cannot-find-what-is-different-from-lesson-source-code)
 
+# This repository Git branches
+* master
+* Dependency-Injection-without-Spring (include examples dependency injection without Spring)
+* Dependency-Injection-using-Spring-Framework (include examples Dependency Injection using Spring Framework)
+
 ## All Spring Framework Guru Courses
 ### Spring Framework 5
 * [Spring Framework 5: Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO) - Get the most modern and comprehensive course available for the Spring Framework! Join over 8,200 over Guru's in an Slack community exclusive to this course! More than 3,700 students have given this 53 hour course a 5 star review!
